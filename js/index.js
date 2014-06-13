@@ -122,7 +122,7 @@ function menu(option){
 		myScroll.enable();
 	}
 	else if(option == 4){
-		setTitle('Gallery');
+		setTitle('Sponsors');
 		myScroll.disable();
 		//Initialize PhotoSwipe plugin for gallery
 		var myPhotoSwipe = Code.PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), { enableMouseWheel: false , enableKeyboard: false } );
@@ -155,7 +155,7 @@ var mapObject = {
 		var map, markers = [], openInfoWindow, bounds = new google.maps.LatLngBounds();
 		$('div#mapCanvas').css({'height': heightBody - (heightBody/2) + 10 + 'px'});
 		var markers = [];
-		var latlng = new google.maps.LatLng(33.761632, -84.385621);
+		var latlng = new google.maps.LatLng(33.625423, -111.932682);
 		var myOptions = {
 			zoom: 16,
 			center: latlng,
@@ -174,10 +174,10 @@ var mapObject = {
 	getMarkers: function(){
 		//Set a hardcoded marker
 		mapObject.addMarker(
-			'33.761632',
-			'-84.385621',
+			'33.625423',
+			'-111.932682',
 			'Location',
-			'<h3>Contact me</h3><br><p>Atlanta Marriot Marquis</p>',
+			'<h3>Contact</h3><br><p>Westin Kierland Resort</p>',
 			1,
 			false);
 		$btnLocation.show();
