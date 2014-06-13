@@ -115,6 +115,7 @@ function menu(option){
 		$( "#accordion1" ).accordion({collapsible: true});
 		$( "#accordion2" ).accordion({collapsible: true, heightStyle: "content"});
 		$( "#accordion3" ).accordion({collapsible: true, heightStyle: "content"});
+		$( "#accordion4" ).accordion({collapsible: true, heightStyle: "content"});
 	}
 	else if(option == 3){
 		$btnLocation.hide();
