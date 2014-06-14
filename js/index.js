@@ -154,7 +154,7 @@ var mapObject = {
 
 	init : function(){
 		var map, markers = [], openInfoWindow, bounds = new google.maps.LatLngBounds();
-		$('div#mapCanvas').css({'height': heightBody - (heightBody/2) + 10 + 'px'});
+		$('div#mapCanvas').css({'height': heightBody - (heightBody/2) + 100 + 'px'});
 		var markers = [];
 		var latlng = new google.maps.LatLng(33.625423, -111.932682);
 		var myOptions = {
