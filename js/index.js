@@ -138,7 +138,9 @@ function menu(option){
 		setTitle('Floorplan');
 		$.panzoom();
 	}
-
+	else if(option == 7){
+		setTitle('Exhibitors');
+	}
 	//Refresh of the iScroll plugin
 	myScroll.refresh();
 	myScroll.scrollTo(0,0);
