@@ -110,12 +110,12 @@ function menu(option){
 	else if(option == 2){
 		$btnLocation.hide();
 		setTitle('Schedule');
-		myScroll.enable();
 		$( "#tabs" ).tabs();
 		$( "#accordion1" ).accordion({collapsible: true});
 		$( "#accordion2" ).accordion({collapsible: true, heightStyle: "content"});
 		$( "#accordion3" ).accordion({collapsible: true, heightStyle: "content"});
 		$( "#accordion4" ).accordion({collapsible: true, heightStyle: "content"});
+		myScroll.enable();
 	}
 	else if(option == 3){
 		$btnLocation.hide();
@@ -137,9 +137,11 @@ function menu(option){
 	else if(option == 6){
 		setTitle('Floorplan');
 		$.panzoom();
+		myScroll.enable();
 	}
 	else if(option == 7){
 		setTitle('Exhibitors');
+		myScroll.enable();
 	}
 	//Refresh of the iScroll plugin
 	myScroll.refresh();
