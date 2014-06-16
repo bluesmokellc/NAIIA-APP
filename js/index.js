@@ -136,6 +136,7 @@ function menu(option){
 	}
 	else if(option == 6){
 		setTitle('Floorplan');
+		$.panzoom();
 	}
 
 	//Refresh of the iScroll plugin
